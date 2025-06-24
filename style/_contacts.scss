@@ -1,0 +1,33 @@
+.contacts {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+    &__link {
+        font-weight: 300;
+        font-size: $subtitle-link-font;
+        color: $third-text-color;
+        text-decoration: none;
+        margin-bottom: 10px;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .contacts {
+        margin-bottom: 50px;
+        &__link {
+            font-size: $base-font-size;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contacts {
+        margin-bottom: 40px;
+        &__link {
+            font-size: 0.72rem;
+        }
+    }
+}

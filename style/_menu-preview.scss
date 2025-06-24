@@ -1,0 +1,32 @@
+.menu-preview {
+    padding: 100px 0;
+    &__subtitle {
+        margin: 30px 0 60px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .menu-preview {
+        padding: 80px 0;
+        &__subtitle {
+            margin: 30px 0 48px;
+            font-size: .88rem;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .menu-preview {
+        padding: 70px 24px 70px 52px;
+        &__subtitle {
+            margin: 20px 0 58px;
+            font-size: 0.8rem;
+        }
+    }
+}
+
+@media screen and (max-width: 678px) {
+    .menu-preview {
+        padding: 60px 12px 60px 40px;
+    }
+}

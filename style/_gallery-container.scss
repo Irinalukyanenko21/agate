@@ -1,0 +1,22 @@
+.gallery-container {
+    max-width: 1872px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px; // работает как по горизонтали, так и по вертикали
+    &__item {
+        flex: 0 1 calc((100% - 24px) / 2);
+    }
+    &__image {
+        width: 100%;
+        display: block;
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .gallery-container {
+        flex-direction: column;
+        gap: 0;
+    }
+}

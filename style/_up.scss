@@ -1,0 +1,20 @@
+.up {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 2;
+    background-color: #FFAC1C;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+    text-align: center;
+    align-items: center;
+    font-size: 1.2rem;
+    transition: background-color 0.8s ease-in;
+}
+
+.up:hover {
+    background-color: #E5A434;
+}

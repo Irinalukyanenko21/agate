@@ -1,0 +1,46 @@
+.social {
+    display: flex;
+    justify-content: center;
+    &__link {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        background-color: #fff;
+        border-radius: 50%;
+        position: relative;
+        margin-right: 40px;
+        transition: transform 0.3s ease;
+        &:last-child {
+            margin-right: 0;
+        }
+        &:hover {
+            transform: scale(1.15);
+        }
+        &::before {
+            content: "";
+            display: block;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+        }
+        &:nth-child(1)::before {
+            width: 16px;
+            height: 30px;
+            background-image: url("../icons/facebook.svg");
+        }
+        &:nth-child(2)::before {
+            width: 28px;
+            height: 23px;
+            background-image: url("../icons/twitter.svg");
+        }
+        &:nth-child(3)::before {
+            width: 52px;
+            height: 51px;
+            background-image: url("../icons/instagram.svg");
+        }
+    }
+}

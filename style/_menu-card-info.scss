@@ -1,0 +1,89 @@
+.menu-card-info {
+    margin-top: 35px;
+    &__title {
+        font-size: 1.2rem; // 30px
+        font-weight: 400;
+        margin-bottom: 15px;
+    }
+    &__description {
+        font-size: 0.72rem; // 18px
+        font-weight: 300;
+        line-height: 1.2;
+        color: $secondary-text-color;
+        margin-bottom: 15px;
+    }
+    &__price {
+        font-size: 0.72rem;
+        font-weight: 700;
+        color: $text-color;
+        vertical-align: top;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .menu-card-info {
+        &__description {
+            font-size: 0.64rem;
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .menu-card-info {
+        margin-top: 15px;
+        &__title {
+            font-size: 1rem;
+        }
+        &__description {
+            font-size: 0.6rem;
+            line-height: 19px;
+            margin: 15px 0;
+        }
+        &__price {
+            font-size: 0.6rem;
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .menu-card-info {
+        &__description {
+            font-size: 0, 56rem;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .menu-card-info {
+        text-align: left;
+        max-width: 348px;
+        padding-top: 17px;
+        margin-left: 24px;
+        &__description {
+            font-size: 0.8rem;
+            margin: 20px 0;
+            line-height: 25px;
+        }
+        &__price {
+            font-size: 0.8rem;
+        }
+    }
+}
+
+@media screen and (max-width: 678px) {
+    .menu-card-info {
+        max-width: 300px;
+        //padding: 0;
+        margin: 15px 0 0;
+        &__title {
+            font-size: 0.8rem;
+        }
+        &__description {
+            margin: 15px 0;
+            font-size: 0.72rem;
+        }
+        &__price {
+            font-size: 0.72rem;
+        }
+    }
+}

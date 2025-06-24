@@ -1,0 +1,38 @@
+        .button {
+            display: block;
+            width: 312px;
+            height: 60px;
+            margin: 0 auto;
+            font-size: $button-font;
+            font-weight: 600;
+            border-radius: 30px;
+            line-height: 60px;
+            text-decoration: none;
+            transition: all 0.4s ease;
+            cursor: pointer;
+        }
+        
+        .button--white {
+            @include button($third-text-color, #FFA60D, #000);
+        }
+        
+        .button--dark {
+            @include button($text-color, #FFA60D, #000);
+        }
+        
+        @media screen and (max-width: 1024px) {
+            .button {
+                width: 248px;
+                height: 48px;
+                line-height: 48px;
+                font-size: 0.68rem;
+            }
+        }
+        
+        @media screen and (max-width: 375px) {
+            .button {
+                width: 100%;
+                max-width: 240px;
+                font-size: 0.72rem;
+            }
+        }

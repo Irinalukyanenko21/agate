@@ -1,0 +1,19 @@
+.primary-banner {
+    background-image: url("../img/bachground.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 480px) {
+    .primary-banner {
+        background-position: center top;
+        min-height: 100vh; // "viewport height" — процент от высоты экрана
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .primary-banner {
+        min-height: 100vh;
+        background-position: center top;
+    }
+}

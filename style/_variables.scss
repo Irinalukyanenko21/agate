@@ -1,0 +1,22 @@
+// Цвета текста  
+$text-color: #000000; //основной текст
+$secondary-text-color: #474747; //тёмный текст подзаголовок
+$dark-text-color:#262626; // текст описание 
+$third-text-color:#fff; // текст header and footer
+//  Шрифт  
+$base-font: 'Source Serif 4',
+serif;
+// Размеры шрифтов  
+$base-font-size: 25px; //базовый размер 25px
+$large-title-font: 3.4rem; //заголовок 1го уровня banner
+$small-title-heading: 2.6rem; //заголовок 2го уровня footer
+$title-font: 1.6rem; //заголовки секций 40px
+$content-large-font: 1.2rem; // текст описание 30px
+$link-font: 0.88rem; //ссылки навигации в header
+$subtitle-link-font: 1.4rem; // ссылки-контакты  в footer
+$button-font: 0.8rem; // размер шрифта кнопки
+//Размеры шрифтов карточек меню  
+$card-title-font: 1.2rem;
+$card-desc-font: 0.9rem;
+//$card-price-font: 0.72rem;
+$card-small-font: 0.56rem; // hot,new,hit
