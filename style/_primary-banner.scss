@@ -7,13 +7,13 @@
 @media screen and (max-width: 480px) {
     .primary-banner {
         background-position: center top;
-        min-height: 100vh; // "viewport height" — процент от высоты экрана
+        min-height: 100vh;
     }
 }
 
 @media screen and (max-width: 375px) {
     .primary-banner {
-        min-height: 100vh;
+        min-height: 80vh;
         background-position: center top;
     }
 }
